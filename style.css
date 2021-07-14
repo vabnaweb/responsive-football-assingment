@@ -209,14 +209,14 @@ align-items: center;
       
  }
  /*---------------------------------media queries--------------------------- */
+ /* -----------meadia query for mobile ------------*/
        @media only screen and (max-width:688px){
         .header-display{
            flex-direction: column;
     }
         .header-title p{
             font-size: 36px;
-            width: 278px;
-           height: 138px;
+           
         }
         .header-img img{
             width: 329px;
@@ -240,10 +240,9 @@ align-items: center;
            font-size:25px; 
 
        } 
-     /* .icons{
-        width: 170px;
-        height: 32px;
-       }  */
+     
        .footer-section{
         font-size: 18px;
        }
+    }
+      
