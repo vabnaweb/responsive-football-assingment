@@ -24,7 +24,7 @@ color: #FFFFFF;
 width: 485px;
 height: 230px;
 margin: 0;
-font-size: 64px;
+
 line-height:80px;
 
 }
@@ -182,7 +182,7 @@ main{
      margin-top: 50px;
  }
  .footer-section{
-     border:3px solid black;
+     
      width: 483.87px;
 height: 213px;
 display: flex;
@@ -194,14 +194,57 @@ align-items: center;
     height: 110px;
     
  }
+ .icons{
+    width: 170px;
+    height: 32px;
+ }
  .icon{
  
   
     color: whitesmoke;
      background: #969BAB;
-     font-size:30px ;
-      margin:10px; 
+      font-size:30px ;
+     /* width:30px;
+     height: 30px; */
+   
+      margin:5px; 
     
       
  }
- 
+ /*---------------------------------media queries--------------------------- */
+       @media only screen and (max-width:688px){
+        .header-display{
+           flex-direction: column;
+    }
+        .header title p{
+            font-size: 36px;
+        }
+        .header-img img{
+            width: 329px;
+            height: 259.17px;
+        }
+        main{
+            flex-direction: column;
+        }
+        .players{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .final-teams{
+            height: auto;
+            width: auto;
+        }
+        .footer-section img{
+            width: 275px;
+            height: 63px;
+        }
+     .icon{
+           font-size:25px; 
+
+       } 
+     /* .icons{
+        width: 170px;
+        height: 32px;
+       }  */
+       .footer-section{
+        font-size: 18px;
+       }
