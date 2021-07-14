@@ -28,7 +28,7 @@ font-size: 64px;
 
 }
 
-a{
+.header-title a{
     background-color:#E02C6D; 
     padding:10px 24px;
     color: white;
@@ -155,8 +155,24 @@ main{
 
 
  }
- 
 
+  /* <!-- final teams in copa America 2021 --> */
+
+
+ .final-teams{
+     background-image: url("playground.jpg");
+     height: 280px;
+     width:600px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    
+ }
+ .brasil-img{
+     width: 117px;
+     height:160px;
+ }
+ 
  /* ---------------footer part -----------*/
  footer{
      display: flex;
