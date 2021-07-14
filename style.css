@@ -204,10 +204,7 @@ align-items: center;
     color: whitesmoke;
      background: #969BAB;
       font-size:30px ;
-     /* width:30px;
-     height: 30px; */
-   
-      margin:5px; 
+     margin:5px; 
     
       
  }
@@ -217,7 +214,7 @@ align-items: center;
            flex-direction: column;
     }
         .header title p{
-            font-size: 36px;
+            font-size: 30px;
         }
         .header-img img{
             width: 329px;
