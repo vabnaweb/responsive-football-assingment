@@ -216,6 +216,8 @@ align-items: center;
     }
         .header-title p{
             font-size: 36px;
+            width: 278px;
+            height: 138px;
            
         }
         .header-img img{
