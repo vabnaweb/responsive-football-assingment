@@ -213,8 +213,8 @@ align-items: center;
         .header-display{
            flex-direction: column;
     }
-        .header title p{
-            font-size: 30px;
+        .header-title p{
+            font-size: 36px;
             width: 278px;
            height: 138px;
         }
